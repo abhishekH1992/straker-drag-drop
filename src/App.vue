@@ -73,7 +73,6 @@ import { ref } from 'vue';
         if (currentElement) {
             const left = currentElement.style.left;
             const top = currentElement.style.top;
-        
             // Uncomment and use the following code to send the position data to the backend
             /*
             fetch('/api/drag-end', {
